@@ -1,26 +1,22 @@
 # 📝 Advanced Todo List App
 
-A modern and responsive Todo List application built using **HTML, CSS, and JavaScript**. It helps users organize daily tasks with features like task priorities, due dates, dark mode, search, filters, and automatic local storage.
-
-## 🚀 Live Demo
-
-🔗 https://zaidimam15.github.io/todo-list-app/
-
-> If the live link is not working yet, wait a few minutes after enabling GitHub Pages.
+A modern, responsive, and feature-rich **Todo List Application** built using **HTML, CSS, and JavaScript**. It helps users organize daily tasks efficiently with features like priorities, due dates, dark mode, search, filters, progress tracking, and automatic local storage.
 
 ---
 
-## 📸 Preview
+## 🚀 Live Demo
 
-![Advanced Todo App](assets/screenshot.png)
+🔗 **https://zaidimam15.github.io/todo-list-app/**
 
-> Add a screenshot of your project here.
+> If the website doesn't open immediately, wait a few minutes after enabling GitHub Pages.
 
-Example:
+---
 
-```
-assets/screenshot.png
-```
+## 📸 Project Preview
+
+<p align="center">
+  <img src="assets/Screenshot.png" alt="Advanced Todo List App" width="900">
+</p>
 
 ---
 
@@ -34,13 +30,13 @@ assets/screenshot.png
 - 🎯 Filter tasks (All, Active, Completed)
 - 🚩 Set task priority (High, Medium, Low)
 - 📅 Add due dates
-- 📊 Task progress bar
-- 📈 Task counter
+- 📊 Live task progress bar
+- 📈 Task statistics (Total, Completed, Remaining)
 - 🌙 Dark / Light mode
 - 💾 Automatic Local Storage
 - 🚫 Duplicate task prevention
-- 📱 Fully responsive design
-- ⌨️ Keyboard shortcut (Ctrl + /)
+- 📱 Fully Responsive Design
+- ⌨️ Keyboard Shortcut (Ctrl + /)
 
 ---
 
@@ -55,8 +51,10 @@ assets/screenshot.png
 
 ## 📂 Project Structure
 
-```
+```text
 todo-list-app/
+│── assets/
+│   └── Screenshot.png
 │── index.html
 │── style.css
 │── script.js
@@ -67,30 +65,32 @@ todo-list-app/
 
 ## ⚙️ Installation
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/zaidimam15/todo-list-app.git
 ```
 
-2. Open the project folder
+### 2. Open the project folder
 
 ```bash
 cd todo-list-app
 ```
 
-3. Open `index.html` in your browser.
+### 3. Run the project
+
+Simply open **index.html** in your browser.
 
 ---
 
 ## 💡 Future Improvements
 
-- 🔔 Toast notifications
-- 🎤 Voice input for tasks
-- 📂 Task categories
-- 🌐 Cloud sync
-- 📤 Export tasks as PDF/CSV
-- 🖱️ Drag & Drop task reordering
+- 🔔 Toast Notifications
+- 🎤 Voice Input
+- 📂 Task Categories
+- 🌐 Cloud Synchronization
+- 📤 Export Tasks as PDF/CSV
+- 🖱️ Drag & Drop Task Reordering
 
 ---
 
@@ -98,25 +98,19 @@ cd todo-list-app
 
 **MD Zaid Imam**
 
-- GitHub: https://github.com/zaidimam15
-- LinkedIn: www.linkedin.com/in/md-zaid-imam-750143245
+- 🌐 GitHub: https://github.com/zaidimam15
+- 💼 LinkedIn: https://www.linkedin.com/in/md-zaid-imam-750143245
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License
+This project is licensed under the **MIT License**.
 
 ---
-## 📸 Screenshot
 
-<p align="center">
-  <img src="assets/Screenshot.png" alt="Todo App Screenshot" width="900">
-</p>
+## ⭐ Support
 
-⭐ If you like this project, don't forget to **Star** the repository!
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
 
-
-
-
-
+It motivates me to build more awesome projects! 🚀
