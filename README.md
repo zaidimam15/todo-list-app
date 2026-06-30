@@ -97,7 +97,7 @@ cd todo-list-app
 **MD Zaid Imam**
 
 - GitHub: https://github.com/zaidimam15
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- LinkedIn: www.linkedin.com/in/md-zaid-imam-750143245
 
 ---
 
