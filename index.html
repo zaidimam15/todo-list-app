@@ -1,29 +1,141 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced To-Do List App</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-  <div class="app">
-    <div class="top-bar">
-      <h1>To-Do List</h1>
-      <button id="themeBtn">🌙</button>
-    </div>
+    <div class="container">
 
-    <div class="input-box">
-      <input type="text" id="taskInput" placeholder="Enter your task...">
-      <button id="addBtn">Add</button>
-    </div>
+        <!-- Header -->
 
-    <ul id="taskList"></ul>
+        <header class="header">
 
-    <p class="footer-text">Your tasks are saved automatically</p>
-  </div>
+            <h1>📝 Todo App</h1>
 
-  <script src="script.js"></script>
+            <button id="themeBtn" aria-label="Toggle Theme">
+                🌙
+            </button>
+
+        </header>
+
+        <!-- Add Task -->
+
+        <form id="todoForm">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+                autocomplete="off"
+                required>
+
+            <select id="priority">
+
+                <option value="Low">🟢 Low</option>
+                <option value="Medium">🟡 Medium</option>
+                <option value="High">🔴 High</option>
+
+            </select>
+
+            <input type="date" id="dueDate">
+
+            <button type="submit">
+                Add
+            </button>
+
+        </form>
+
+        <!-- Search -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Search task...">
+
+        </div>
+
+        <!-- Filter -->
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="active">
+                Active
+            </button>
+
+            <button class="filter" data-filter="completed">
+                Completed
+            </button>
+
+        </div>
+
+        <!-- Progress -->
+
+        <div class="progress">
+
+            <div id="progressBar"></div>
+
+        </div>
+
+        <!-- Counter -->
+
+        <div class="counter">
+
+            <span id="taskCounter">
+
+                Total : 0
+
+            </span>
+
+        </div>
+
+        <!-- Todo List -->
+
+        <ul id="taskList">
+
+        </ul>
+
+        <!-- Bottom -->
+
+        <div class="bottom">
+
+            
+
+                
+
+            </button>
+             <div class="bottom">
+    <button id="clearCompleted">
+        🗑 Clear Completed
+    </button>
+</div>
+
+<footer class="footer">
+    <p>© 2026 MD Zaid Imam | Built with HTML, CSS & JavaScript ❤️</p>
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
