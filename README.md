@@ -15,7 +15,7 @@ A modern, responsive, and feature-rich **Todo List Application** built using **H
 ## 📸 Project Preview
 
 <p align="center">
-  <img src="assets/Screenshot.png" alt="Advanced Todo List App" width="900">
+  <img src="https://raw.githubusercontent.com/zaidimam15/todo-list-app/main/assets/Screenshot.png" alt="Todo App Screenshot" width="900">
 </p>
 
 ---
