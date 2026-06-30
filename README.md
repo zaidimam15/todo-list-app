@@ -12,6 +12,8 @@ A modern and responsive Todo List application built using **HTML, CSS, and JavaS
 
 ## 📸 Preview
 
+![Advanced Todo App](assets/screenshot.png)
+
 > Add a screenshot of your project here.
 
 Example:
