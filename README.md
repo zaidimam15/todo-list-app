@@ -108,13 +108,15 @@ cd todo-list-app
 This project is licensed under the MIT License
 
 ---
+## 📸 Screenshot
 
+<p align="center">
+  <img src="assets/Screenshot.png" alt="Todo App Screenshot" width="900">
+</p>
 
 ⭐ If you like this project, don't forget to **Star** the repository!
 
-## 📸 Screenshot
 
-![Todo App](assets/screenshot.png)
 
 
 
