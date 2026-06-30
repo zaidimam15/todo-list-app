@@ -105,12 +105,13 @@ cd todo-list-app
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License
 
+---
 ## 📸 Screenshot
 
 ![Todo App](assets/screenshot.png)
 
----
-
 ⭐ If you like this project, don't forget to **Star** the repository!
+
+
